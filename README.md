@@ -1,29 +1,29 @@
-# Create T3 App
+## 📹 Video Upload
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+To help users understand large GitHub repositories quickly, our platform supports video uploads for meetings and discussions. The uploaded videos are processed using AI agents to generate summaries, extract key points, and create notes.  
 
-## What's next? How do I make an app with this?
+### 🚀 How It Works
+1. **Upload a Video**:  
+   Users can upload recorded Zoom meetings or other video files directly to the platform.  
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+2. **AI Processing**:  
+   - **Speech-to-Text Conversion**: Transcribes the audio to text.  
+   - **Key Point Extraction**: Identifies and highlights important parts of the discussion.  
+   - **Summary Generation**: Creates a concise summary of the video content.  
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+3. **Download and Share**:  
+   Users can download the summary as a PDF or share it directly.  
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+### 📄 Supported Formats
+- MP4, AVI, MOV, and more.
 
-## Learn More
+### 🔒 Privacy and Security
+- All uploaded videos are securely stored and deleted after processing.  
+- Transcriptions and summaries are available only to authorized users.
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+### 🛠️ Technologies Used
+- **Speech-to-Text API**: For audio transcription.  
+- **Natural Language Processing (NLP)**: For summarizing and extracting key points.  
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+### 🖥️ Demo
+[Click here](https://drive.google.com/drive/folders/1QsgIhdCyqZ1hiAJHFmRdkC0SgBLpFTmH?usp=sharing) to watch a demo of the video upload feature.
