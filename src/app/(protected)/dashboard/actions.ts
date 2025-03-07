@@ -114,11 +114,24 @@ export async function askQuestion(question: string, projectId: string) {
   ORDER BY similarity DESC
   LIMIT 10
 ` as { fileName: string; sourceCode: string; summary: string }[];
+<<<<<<< HEAD
 
 
     if (!result.length) {
       throw new Error("No relevant data found in the database.");
     }
+=======
+console.log("Query Result:", result);
+
+
+if (!result.length) {
+  return {
+    output: stream.value,
+    filesReferences: [],
+    noDataFound: true
+  };
+}
+>>>>>>> 50a7e981fd85c17a70f2274c81e1edacf5b9f65c
 
     // Build the context for the AI model
     let context = "";
